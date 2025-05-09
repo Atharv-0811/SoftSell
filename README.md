@@ -1,6 +1,6 @@
 # SoftSell - Software License Resale Platform
 
-![SoftSell Banner](https://via.placeholder.com/1200x400)
+![SoftSell Home Page](/images/Home_Page.png)
 
 ## Project Overview
 
@@ -8,7 +8,7 @@ SoftSell is a modern, responsive single-page marketing website designed for a so
 
 ## Live Demo
 
-[View Live Site](https://softsell-platform.vercel.app/)
+[View Live Site](https://softsell-sepia.vercel.app/)
 
 ## Features
 
@@ -90,10 +90,6 @@ src/
 │   └── Testimonials.jsx          # Customer reviews section
 ├── styles/
 │   └── globals.css               # Global styles and Tailwind directives
-├── hooks/
-│   └── useAnimationControls.js   # Custom hook for animation logic
-├── utils/
-│   └── animations.js             # Reusable animation configurations
 └── app/
     └── page.js                   # Main page component
 ```
@@ -130,7 +126,7 @@ The attention to detail in animations, responsive behavior, and interactive elem
 
 ## About Me
 
-I'm a passionate front-end developer focused on creating exceptional digital experiences through clean code, thoughtful UX, and innovative technical solutions. I excel at rapidly delivering polished products that meet business objectives while delighting users.
+I'm a passionate web developer focused on creating exceptional digital experiences through clean code, thoughtful UX, and innovative technical solutions. I excel at rapidly delivering polished products that meet business objectives while delighting users.
 
 My approach combines technical expertise with an eye for design and a deep understanding of user behavior, allowing me to build applications that are not just functional but genuinely engaging.
 
