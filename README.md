@@ -1,6 +1,6 @@
 # SoftSell - Software License Resale Platform
 
-![SoftSell Home Page](/images/Home_Page.png)
+![SoftSell Home Page](.public/images/Home_Page.png)
 
 ## Project Overview
 
