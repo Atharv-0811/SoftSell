@@ -15,10 +15,8 @@ export async function POST(request) {
       );
     }
 
-    // Create the model (Gemini only supports 'gemini-pro' for chat)
     const model = genAI.getGenerativeModel({ model: 'gemini-pro' });
 
-    // Convert messages to a format Gemini expects (user-assistant-user...)
     const history = [
       {
         role: 'user',
@@ -39,7 +37,7 @@ export async function POST(request) {
         role: msg.role === 'user' ? 'user' : 'model',
         parts: [msg.content],
       })),
-    ].slice(-10); // Keep only the last 10 exchanges
+    ].slice(-10);
 
     const result = await model.generateContent({
       contents: history,

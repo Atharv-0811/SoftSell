@@ -4,6 +4,7 @@ import WhyChooseUs from '../components/WhyChooseUs';
 import Testimonials from '../components/Testimonials';
 import ContactForm from '../components/ContactForm';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -14,9 +15,7 @@ export default function Home() {
       <WhyChooseUs />
       <Testimonials />
       <ContactForm />
-      <footer className="bg-slate-800 text-white py-6 text-center">
-        <p>© 2025 SoftSell. All rights reserved.</p>
-      </footer>
+      <Footer />
     </main>
   );
 }
